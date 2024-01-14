@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{F0C5E3C4-D3B8-F380-114D-6230467F8D7B}|">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MapDisplay.cs">
+    <Files>
+      <File FileName="Assets/Scripts/Noise.cs" Line="21" Column="47" />
+      <File FileName="Assets/Scripts/MapGenerator.cs" Line="15" Column="41" />
+      <File FileName="Assets/Scripts/MapDisplay.cs" Line="26" Column="79" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Shader" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="c479450f-04db-4537-b3bb-1c11fb28308b" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
