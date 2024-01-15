@@ -236,7 +236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 894785197a7504d7aaeaad3150501b4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textureRenderer: {fileID: 1022730643}
+  textureRender: {fileID: 1022730643}
 --- !u!114 &1359026497
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,19 +253,37 @@ MonoBehaviour:
   mapWidth: 100
   mapHeight: 100
   noiseScale: 25
-  octaves: 5
-  persistance: 0.5
-  lacunarity: 2.36
-  seed: 9
+  octaves: 10
+  persistance: 0.44
+  lacunarity: 1.96
+  seed: 11
   offset: {x: 81.8, y: 77.47}
   autoUpdate: 1
   regions:
-  - name: Water
+  - name: Water Deep
     height: 0.4
-    colour: {r: 0, g: 0.29478312, b: 1, a: 0}
+    colour: {r: 0, g: 0.38523224, b: 0.754717, a: 0}
+  - name: Water Shallow
+    height: 0.3
+    colour: {r: 0.12927197, g: 0.35877678, b: 0.7830189, a: 0}
   - name: Land
+    height: 0.5
+    colour: {r: 0.8369731, g: 0.8773585, b: 0.55869526, a: 0}
+  - name: Grass
+    height: 0.55
+    colour: {r: 0.18249059, g: 0.6792453, b: 0.105731584, a: 0}
+  - name: Grass 2
+    height: 0.6
+    colour: {r: 0.14084446, g: 0.5, b: 0.0495283, a: 0}
+  - name: Rock
+    height: 0.7
+    colour: {r: 0.22801708, g: 0.23768242, b: 0.26415092, a: 0}
+  - name: Rock2
+    height: 0.9
+    colour: {r: 0.16981131, g: 0.13376646, b: 0.14224109, a: 0}
+  - name: Snow
     height: 1
-    colour: {r: 0, g: 0.4745098, b: 0, a: 0}
+    colour: {r: 1, g: 1, b: 1, a: 0}
 --- !u!4 &1359026498
 Transform:
   m_ObjectHideFlags: 0
