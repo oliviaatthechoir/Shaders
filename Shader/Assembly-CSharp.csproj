@@ -60,6 +60,7 @@
     <Compile Include="Assets/Scripts/MapGenerator.cs" />
     <Compile Include="Assets/Scripts/TextureGenerator.cs" />
     <Compile Include="Assets/Scripts/Noise.cs" />
+    <Compile Include="Assets/Scripts/MeshGenerator.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
